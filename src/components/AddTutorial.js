@@ -46,14 +46,14 @@ const AddTutorial = () => {
   return (
     <div className="submit-form">
       {submitted ? (
-        <div>
+        <div className="d-flex">
           <h4>You submitted successfully!</h4>
           <button className="btn btn-success" onClick={newTutorial}>
             Add
           </button>
         </div>
       ) : (
-        <div>
+        <div className="d-flex">
           <div className="form-group">
             <label htmlFor="title">Title</label>
             <input
